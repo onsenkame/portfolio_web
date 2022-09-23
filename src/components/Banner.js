@@ -9,10 +9,10 @@ export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
-  const [delta, setDelta] = useState(300 - Math.random() * 100);
+  const [delta, setDelta] = useState(300 - Math.random() * 10);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
-  const period = 2000;
+  const toRotate = [ "Fullstack Engineer", "Web Designer", "Adventurer" ];
+  const period = 1000;
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -56,6 +56,7 @@ export const Banner = () => {
       <Container>
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
+          <div className="paper"> 
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
@@ -63,13 +64,14 @@ export const Banner = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <span className="tagline">Welcome to my Portfolio</span>
+                  <span className="tagline">ようこそ！</span>
                   <h1>
-                    {`Hi! I'm Warren`}{" "}
+                    {`Hi! I'm Warren Au`}{" "}
+                    <br></br>
                     <span
                       className="txt-rotate"
                       dataperiod="1000"
-                      data-rotate='[ "Fullstack Engineer", "Web Designer", "UI/UX Designer" ]'
+                      data-rotate='[ "Fullstack Engineer", "Web Designer", "Adventurer" ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
@@ -82,24 +84,12 @@ export const Banner = () => {
                     type specimen book.
                   </p>
                   <button onClick={() => console.log("connect")}>
-                    Let’s Connect <ArrowRightCircle size={25} />
+                    About Me <ArrowRightCircle size={25} />
                   </button>
                 </div>
               )}
             </TrackVisibility>
-          </Col>
-          <Col xs={12} md={6} xl={5}>
-            <TrackVisibility>
-              {({ isVisible }) => (
-                <div
-                  className={
-                    isVisible ? "animate__animated animate__zoomIn" : ""
-                  }
-                >
-                  <img src={headerImg} alt="Header Img" />
-                </div>
-              )}
-            </TrackVisibility>
+            </div>
           </Col>
         </Row>
       </Container>
