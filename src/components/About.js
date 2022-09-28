@@ -30,11 +30,9 @@ export const About = () => {
   };
 
   return (
-    <section className="skill" id="skills">
-
-    <div>
+    <section className="banner" id="skills">
       <Container>
-        <Row className="aligh-items-center">
+        <Row >
           <Col xs={12} md={6} xl={7}>
           <div className="paper"> 
             <span className="tagline">ようこそ！</span>
@@ -93,9 +91,7 @@ export const About = () => {
         </div>
         <img className="background-image-left" src={colorSharp} alt="Image" />
       </section>
-      </Container>
-      </div>
-      
+      </Container>  
     </section>
   );
 };
