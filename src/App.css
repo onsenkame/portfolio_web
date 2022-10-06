@@ -20,6 +20,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 html {
@@ -81,6 +82,7 @@ p.success {
 p.danger {
 	color: red;
 }
+
 /************ Navbar Css ************/
 nav.navbar {
   padding: 18px 0;
@@ -285,9 +287,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner button:hover svg {
   margin-left: 25px;
 }
-.banner img {
+/* .banner img {
   animation: updown 3s linear infinite;
-}
+} */
 @keyframes updown {
     0% {
         transform: translateY(-20px);
@@ -305,12 +307,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .paper {
   background: rgba(255, 255, 255, .7);
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px;
+  text-align: center;
+  justify-content: center;
+  
 }
 
 /************ About Me Css ************/
 .skill {
-  padding: 0 0 50px 0;
+  padding: 100px 0 50px 0;
   position: relative;
 }
 .skill-bx {
@@ -397,7 +402,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: linear-gradient(90.21deg, #D0D2CF -5.91%, #3D4126 111.58%);
     top: 0;
     left: 0;
     z-index: -1;
