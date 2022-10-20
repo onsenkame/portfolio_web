@@ -75,48 +75,46 @@ export const About = () => {
           </Col>
         </Row>
         <Row>
-          <section className="skill" id="skills">
-            <div className="container">
-              <div className="row">
-                <div className="col-12">
-                  <div className="skill-bx wow zoomIn">
-                    <h2>Skills</h2>
-                    <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry.<br></br> Lorem Ipsum has been the
-                      industry's standard dummy text.
-                    </p>
-                    <Carousel
-                      responsive={responsive}
-                      infinite={true}
-                      className="owl-carousel owl-theme skill-slider"
-                    >
-                      <div className="item">
-                        <img src={meter1} />
-                        <h5>Web Development</h5>
-                      </div>
-                      <div className="item">
-                        <img src={meter2} />
-                        <h5>Brand Identity</h5>
-                      </div>
-                      <div className="item">
-                        <img src={meter3} />
-                        <h5>Logo Design</h5>
-                      </div>
-                      <div className="item">
-                        <img src={meter1} />
-                        <h5>Web Development</h5>
-                      </div>
-                    </Carousel>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <img
-              className="background-image-left"
-              src={colorSharp}
-            />
-          </section>
+        <Row>
+          <h2 className="label">Contact</h2>
+
+          <Col xs={6}>
+            <h3>Email</h3>
+            <li>onsenkame@gmail.com</li>
+          </Col>
+          <Col xs={6}>
+            <h3>Based in</h3>
+            <li>San Diego, CA</li>
+          </Col>
+      </Row>
+
+      <Row>
+        <h2 className="label">Skills</h2>
+
+
+          <Col xs={6} >
+            <h3>Proficient</h3>
+            <li>HTML5 / CSS3</li>
+            <li>Javascript</li>
+            <li>React</li>
+            <li>React Native</li>
+            <li>Redux</li>
+            <li>Node.js / Express.js</li>
+            <li>PostgreSQL / Sequelize.js</li>
+            <li>Styled Components</li>
+            <li>Sass</li>
+            <li>GSAP</li>
+          </Col>
+
+          <Col xs={6}>
+            <h3>Learning</h3>
+            <li>TypeScript</li>
+            <li>GraphQL</li>
+            <li>Vue</li>
+            <li>Python</li>
+          </Col>
+
+        </Row>
         </Row>
       </Container>
     </section>
