@@ -4,7 +4,6 @@ import logo from '../assets/img/logo.svg';
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/icons8-github-16.svg";
 import { Link } from "react-router-dom";
-import { HashLink } from 'react-router-hash-link';
 export const NavBar = () => {
 
   const [activeLink, setActiveLink] = useState('home');

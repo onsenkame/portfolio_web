@@ -1,6 +1,8 @@
 import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
+import pewpew from "../assets/img/pewpew.jpg";
+import mask from "../assets/img/masksq.jpg";
 import Carousel from 'react-bootstrap/Carousel'
 import "react-multi-carousel/lib/styles.css";
 import arrow1 from "../assets/img/arrow1.svg";
@@ -59,17 +61,14 @@ export const About = () => {
                       infinite={true}
                       className="owl-carousel owl-theme skill-slider">
               <Carousel.Item interval={5000}>
-                <img className="d-block w-100" src={meter1} alt="First slide" />
+                <img className="d-block w-100" src={mask} alt="First slide" />
               </Carousel.Item>
               <Carousel.Item interval={5000}>
                 <img
                   className="d-block w-100"
-                  src={meter1}
+                  src={pewpew}
                   alt="Second slide"
                 />
-              </Carousel.Item>
-              <Carousel.Item interval={5000}>
-                <img className="d-block w-100" src={meter1} alt="Third slide" />
               </Carousel.Item>
             </Carousel>
           </Col>
