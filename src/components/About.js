@@ -35,7 +35,7 @@ export const About = () => {
     <section className="banner" id="skills">
       <Container>
         <Row>
-          <Col xs={12} md={6} xl={7}>
+          <Col xs={12} md={12} xl={7}>
             <div className="paper">
               <span className="tagline">ようこそ！</span>
               <h1>
@@ -56,7 +56,7 @@ export const About = () => {
               </p>
             </div>
           </Col>
-          <Col xs={12} md={6} xl={5}>
+          <Col xs={12} md={12} xl={5}>
             <Carousel responsive={responsive}
                       infinite={true}
                       className="owl-carousel owl-theme skill-slider">

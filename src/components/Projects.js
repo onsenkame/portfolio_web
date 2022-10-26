@@ -79,7 +79,7 @@ export const Projects = () => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
-                        <Row>
+                        <Row className="paper paperStyle">
                           <h3>
                             Scribble Me This is a full-stack JavaScript Game
                           </h3>

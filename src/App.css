@@ -83,6 +83,17 @@ p.danger {
 	color: red;
 }
 
+.paper {
+  background: rgba(255, 255, 255, .5);
+  padding: 10px 10px;
+  text-align: center;
+  justify-content: center; 
+}
+
+.paperStyle {
+  color: black;
+}
+
 /************ Navbar Css ************/
 nav.navbar {
 
@@ -312,13 +323,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-right: 0.08em solid #666;
 }
 
-.paper {
-  background: rgba(255, 255, 255, .7);
-  padding: 10px 10px;
-  text-align: center;
-  justify-content: center;
-  
-}
 
 /************ About Me Css ************/
 .skill {
@@ -377,7 +381,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
 }
 .project p {
-  color: #B8B8B8;
+  color: black;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
